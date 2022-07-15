@@ -1,4 +1,3 @@
-#!/bin/bash
 
 	function init_configure() {
         sed -i "s/Server=127.0.0.1/Server=$ZABBIXSRV_IP/g" /etc/zabbix/zabbix_agent2.conf
